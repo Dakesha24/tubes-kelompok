@@ -32,4 +32,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', register),
     path('diskusi/', diskusi_views.index),
+    path('login/', login),
 ]
