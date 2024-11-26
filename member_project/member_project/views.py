@@ -9,3 +9,6 @@ def about(request):
 
 def register(request):
     return render(request, 'regster.html')
+
+def login(request):
+    return render(request, 'login.html')
